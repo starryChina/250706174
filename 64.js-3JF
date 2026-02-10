@@ -1,1 +1,0 @@
-var gid = $("#urls").attr("gid"); $.getJSON("http://www.64pay.com/plugs/getpayurl.html", { group: gid }, function (redata) { if (redata.status == 1) { $("#urls").html(redata.data) } });
